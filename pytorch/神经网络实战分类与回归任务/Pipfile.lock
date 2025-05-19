@@ -1,0 +1,21 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "481005b73e6582a53509f5214ebe3600e9d112baaf00de0cbe29b02147a1843d"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_full_version": "3.8.3",
+            "python_version": "3.8"
+        },
+        "sources": [
+            {
+                "name": "pip_conf_index_global",
+                "url": "https://pypi.tuna.tsinghua.edu.cn/simple",
+                "verify_ssl": false
+            }
+        ]
+    },
+    "default": {},
+    "develop": {}
+}
