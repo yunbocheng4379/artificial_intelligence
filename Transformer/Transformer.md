@@ -37,7 +37,7 @@ Transformer的核心技术包括：
 4. **残差连接与层归一化** ：缓解梯度消失，加速模型收敛。
 5. **前馈神经网络（FFN）** ：对注意力输出进行非线性变换。
 
-![](https://img-1259707064.cos.ap-guangzhou.myqcloud.com/202505121641236.png)
+![](https://gitee.com/YunboCheng/image-bad/raw/master/imgs/202505201411460.png)
 
 ## 第二章 核心组件
 
@@ -148,7 +148,7 @@ Transformer的核心技术包括：
   - **交叉注意力（Cross Attention）** ：连接编码器和解码器的关键机制。
   - **输出处理** ： 最后通过全连接层和Softmax得到输出概率分布。
 
-![](https://img-1259707064.cos.ap-guangzhou.myqcloud.com/202505121641237.png)
+![](https://gitee.com/YunboCheng/image-bad/raw/master/imgs/202505201411462.png)
 
 
 
@@ -173,12 +173,10 @@ Transformer的核心技术包括：
 
 - **Transformer在CV领域的架构**
 
-  ![](https://img-1259707064.cos.ap-guangzhou.myqcloud.com/202505121817182.png)
+  ![](https://gitee.com/YunboCheng/image-bad/raw/master/imgs/202505201411459.png)
 
   **关键点** : 在输入数据处理过程中，图片不能像纯文本一样可以直接通过**词嵌入**转换为特征向量，需要先将 图片切割 → CNN（提取特征向量） →  Transformer处理。
 
-  ![](https://img-1259707064.cos.ap-guangzhou.myqcloud.com/202505121822730.png)
+  ![](https://gitee.com/YunboCheng/image-bad/raw/master/imgs/202505201411461.png)
 
   ​
-
-  ![](https://img-1259707064.cos.ap-guangzhou.myqcloud.com/202505121821184.png)
