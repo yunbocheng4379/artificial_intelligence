@@ -138,7 +138,7 @@ Transformer的核心技术包括：
 
 - **输入处理**
   - **词嵌入（Input Embedding）** ：将输入的原始词转换为对应的向量表示，这个过程称为词嵌入。例如：”apple“会被映射为一个高维向量。
-  - **位置编码（Positional Encoding）** : 由于Transformer本身没有位置信息感知能力，需要额外添加位置拜尼马来保留词序信息。
+  - **位置编码（Positional Encoding）** : 由于Transformer本身没有位置信息感知能力，需要额外添加位置编码来保留词序信息。
 - **编码器（Encoder）部分**
   - **多头注意力机制（Multi-Head Attention）** ： 并行计算多个注意力头，捕捉不同子空间的语义信息。
   - **前馈网络（Feed Forward）** :  对特征进行非线性变换。
