@@ -147,7 +147,7 @@ for (i, (gX, gY, gW, gH)) in enumerate(locs):
     # 存储每一组匹配后的数字信息
     groupOutput = []
 
-    # 根据坐标提取每一个组
+    # 根据坐标提取每一个组，添加5或减5是为了将截取边框向外扩充一点，防止截取到的数字不全
     group = gray[gY - 5:gY + gH + 5, gX - 5:gX + gW + 5]
     cv_show('group', group)
     # 预处理
