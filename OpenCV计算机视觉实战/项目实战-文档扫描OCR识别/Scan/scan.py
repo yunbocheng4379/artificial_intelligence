@@ -121,8 +121,9 @@ cv2.imshow("Outline", image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
-# 透视变换：将图像中倾斜或扭曲区域（如文档、车牌等）矫正为正面视图。
+# 透视变换：将图像中倾斜或扭曲区域（如文档、车牌等）矫正为正面视图
 # screenCnt.reshape(4, 2) * ratio： screenCnt计算出来的点位是图像经过resize之后的
+# screenCnt.reshape(4, 2)：将轮廓点转换为标准的坐标矩阵形式
 # 现在要在原始图像中绘制出这个位置，需要将点位进行还原。
 warped = four_point_transform(orig, screenCnt.reshape(4, 2) * ratio)
 
